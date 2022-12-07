@@ -41,7 +41,7 @@ let cn2 = (((IKnum[0] * 3 + IKnum[1] * 4 + IKnum[2] * 5 + IKnum[3] * 6 + IKnum[4
 
 
 function ikCheck() {
-    if  (cn1 === IKnum[10] || cn2 === IKnum[10] && IKnum[0] < 9 && IKdaynum[0] < 31 && IKplacenum[0] > 0 && IKplacenum < 701) {
+    if  (cn1 === IKnum[10] || cn2 === IKnum[10] && IKnum[0] < 9 && IKdaynum[0] < 31 && IKplacenum < 701) {
         console.log('The ID code is valid!');
     } else {
         console.log('The code is invalid! Please check the numbers!')
